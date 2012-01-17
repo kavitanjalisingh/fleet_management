@@ -70,9 +70,9 @@ class FuelTestCase(unittest.TestCase):
             }, 'create_account'
         )
 
-    def test_0010_create_purchase_order(self):
+    def test_0010_test_average_efficiency(self):
         """
-        Check if purchase order is created successfully
+        Test to check the functional field 'average_fuel_efficiency'
         """
 
         with Transaction().start(DB_NAME, USER, CONTEXT) as transaction:
