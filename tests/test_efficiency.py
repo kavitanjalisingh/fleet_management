@@ -70,7 +70,7 @@ class FuelTestCase(unittest.TestCase):
             }, 'create_account'
         )
 
-    def test_0010_test_average_efficiency(self):
+    def test_0010_average_efficiency(self):
         """
         Test to check the functional field 'average_fuel_efficiency'
         """
